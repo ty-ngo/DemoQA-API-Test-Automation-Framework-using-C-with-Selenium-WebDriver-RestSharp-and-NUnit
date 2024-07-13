@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "books": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "isbn": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "isbn"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "books"
+    ]
+  }
